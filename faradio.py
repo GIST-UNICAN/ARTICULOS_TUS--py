@@ -11,7 +11,7 @@ import csv
 import pandas as pd
 from datetime import datetime
 import locale
-locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
+locale.setlocale(locale.LC_ALL, '') 
 paginas=range(1,7)
 base_url='http://www.elfaradio.com/tag/metrotus/page/{}/'
 tag_fecha='voc-date'
