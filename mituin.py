@@ -14,7 +14,6 @@ from datetime import datetime
 import locale
 import traceback
 paginas=range(1,10)
-extraer_dic={1: tuple(range (1,31)), 2:tuple(range(1,28)), 3:tuple(range(1,31)), 4:tuple(range(1,30)), 5:tuple(range(1,31))}
 base_url='https://www.mituin.com/tema/metro-tus/pag-{}'
 
 regex_fecha='^[0-9]*-[0-9]*-[0-9]*'
